@@ -7,7 +7,8 @@
 #  https://www.linkedin.com/in/jojivj
 #  http://www.jojees.net
 clean:
-	rm -rf build dist *.egg-info *.py[cod]
+	rm -rf build dist *.egg-info
+	find . -iname *.py[cod] | xargs rm -f 
     
 readme:
 	@echo ==================================================================
