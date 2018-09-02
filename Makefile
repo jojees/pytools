@@ -15,6 +15,5 @@ readme:
 	@echo Preparing the README.md file for this project
 	@echo ==================================================================
 	ls -l README.md
-	python readme.py
     
 default: clean
